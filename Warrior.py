@@ -10,8 +10,8 @@ class Warrior:
         Initializes a Warrior with a name, strength stat, and base damage.
 
         :param name: str - The name of the Warrior
-        :param strength: float - The strength value that boosts attack power
-        :param damage: float - The base damage value (default is 20)
+        :param strength: Int - The strength value that boosts attack power
+        :param damage: Int - The base damage value (default is 20)
         """
         self.__name = name
         self.__strength = strength

@@ -12,8 +12,8 @@ class Mage:
         Initializes a Mage with a name, magic stat, and base damage.
 
         :param name: str - The name of the Mage
-        :param magic: float - The magic level of the Mage used in attack calculations
-        :param damage: float - The base damage (default is 15)
+        :param magic: Int - The magic level of the Mage used in attack calculations
+        :param damage: Int - The base damage (default is 15)
         """
         self.__name = name
         self.__magic = magic
